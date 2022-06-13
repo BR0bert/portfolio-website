@@ -105,7 +105,7 @@ body {
   padding: 35px;
   font-size: 1rem;
   font-weight: bold;
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
 }
 
 .home-text h3 {
@@ -130,7 +130,12 @@ body {
 
 /*ABOUT SECTION*/
 
+.about-me {
+  background-color: azure;
+}
+
 .about-section {
+  height: 650px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -140,7 +145,7 @@ body {
   padding: 35px;
   font-size: 1rem;
   font-weight: bold;
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
 }
 
 .about-section img {
@@ -181,7 +186,7 @@ body {
   min-height: 400px;
   margin: auto;
   max-width: 75%;
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
   padding: 40px;
 }
 
@@ -252,6 +257,10 @@ body {
 }*/
 
 /*CONTACT SECTION*/
+
+.contact-section {
+  background-color: azure;
+}
 
 .contact {
   display: flex;
