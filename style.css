@@ -149,7 +149,7 @@ body {
 }
 
 .about-section img {
-  width: 700px;
+  max-width: 700px;
   box-shadow: 2px 2px 2px 2px gray;
 }
 
@@ -157,6 +157,7 @@ body {
   text-align: justify;
   position: relative;
   font-size: 1rem;
+  flex-wrap: wrap;
 }
 
 .about-text h1 {
@@ -167,6 +168,11 @@ body {
 }
 
 /*PROJECT SECTION*/
+
+.my-projects {
+  background: url(/Images/backgroundPic.jpg);
+}
+
 .title {
   margin: auto;
   max-width: 75%;
