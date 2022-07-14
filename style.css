@@ -98,14 +98,19 @@ body {
 .home-section {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  align-items: center;
-  margin: auto;
-  max-width: 75%;
-  padding: 35px;
+  /* gap: 20px; */
+  /* align-items: center; */
+  margin:20px auto; 
+  /* max-width: 85%; */
+  /* padding: 20px 75px; */
   font-size: 1rem;
   font-weight: bold;
   /*border-bottom: 2px solid black;*/
+}
+
+.home-text{
+padding-top: 120px;
+padding-left: 75px;
 }
 
 .home-text h3 {
@@ -140,8 +145,9 @@ body {
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  margin: auto;
-  max-width: 75%;
+  /* margin: auto; */
+  margin:20px auto;
+    /* max-width: 75%; */
   padding: 35px;
   font-size: 1rem;
   font-weight: bold;
@@ -191,7 +197,7 @@ body {
   align-items: center;
   min-height: 400px;
   margin: auto;
-  max-width: 75%;
+  /* max-width: 75%; */
   /*border-bottom: 2px solid black;*/
   padding: 40px;
 }
